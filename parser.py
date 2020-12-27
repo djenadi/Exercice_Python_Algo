@@ -22,6 +22,7 @@ def process_files():
         try:
             try_helper = BoardHelper(file_name)
             print(try_helper.fill_biggest_square())
+            print("\n")
         except Exception as err:
             print(f"{err}")
 
